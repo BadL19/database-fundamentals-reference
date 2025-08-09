@@ -1,0 +1,10 @@
+Example of Data Redundancy and Isolation:
+
+In a university:
+- Registrar keeps a file with student fee payments.
+- Professors keep a separate file with student grades.
+- Career services keep a file with student placements.
+
+The same student's name, ID, and contact info is stored in all three places,
+leading to redundancy. If the student updates their phone number,
+each file must be updated separately.
